@@ -1,0 +1,44 @@
+.transaction_history {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid fuchsia;
+  border-radius: 10px;
+
+  .main_titles {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: fuchsia;
+    justify-content: center;
+
+    .titles {
+      width: 270px;
+      color: white;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .content_types {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      justify-content: center;
+      border-bottom: 1px solid fuchsia;
+      align-items: center;
+    }
+
+    .all_types {
+      width: 270px;
+      text-align: center;
+    }
+  }
+}
+
